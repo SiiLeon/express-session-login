@@ -3,6 +3,25 @@
   "version": "1.0.0",
   "dependencies": {
     "express": "^4.18.2",
-    "express-session": "^1.17.3"
-  }
+    "express-session": "^1.17.3",
+    "mongojs": "^3.1.0"
+  },
+  "main": "index.js",
+  "bin": {
+    "express-session-login": "bin/www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiiLeon/express-session-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiiLeon/express-session-login/issues"
+  },
+  "homepage": "https://github.com/SiiLeon/express-session-login#readme",
+  "description": ""
 }
